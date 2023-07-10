@@ -30,7 +30,7 @@ else
     chmod +x apth
     echo "Installing the files"
     ./apth unzip >/dev/null 
-    linux/usr/bin/unzip ptero-vm.zip
+    linux/usr/bin/unzip ubuntu-server.iso
     linux/usr/bin/unzip root.zip
     tar -xf root.tar.gz 
     chmod +x ./dist/proot
